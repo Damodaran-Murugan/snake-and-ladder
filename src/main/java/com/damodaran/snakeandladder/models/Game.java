@@ -11,7 +11,9 @@ import java.util.List;
 @Getter
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class Game {
+    private String gameId;
     private Board board;
     private List<Player> players;
     private GameStatus status;

@@ -8,9 +8,11 @@ import lombok.NoArgsConstructor;
 @Getter
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class Player {
 
     private User user;
     private Piece piece;
+    private Position currentPosition;
     private int rank;
 }

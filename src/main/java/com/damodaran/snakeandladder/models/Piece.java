@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class Piece {
 
     private PieceColor color;

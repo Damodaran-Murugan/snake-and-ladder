@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class Position {
     private int row;
     private int column;

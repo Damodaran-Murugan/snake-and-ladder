@@ -10,9 +10,12 @@ import java.util.List;
 @Getter
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class CreateGameRequest {
 
     private int size;
     private List<Cell> specialCells;
+    private List<Player> players;
+    private int diceFaces;
 
 }
